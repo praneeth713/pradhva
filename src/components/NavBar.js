@@ -18,21 +18,10 @@ const NavBar = () => {
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/">Home</Link>
+                                <Link className="nav-link" to="/enroll">Enorll Now</Link>
+                                <Link className="nav-link" to="/enroll">Contact Us</Link>
                             </li>
-                            <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Services
-                                </Link>
-                                <ul className="dropdown-menu">
-                                    <li><Link className="dropdown-item" to="/enroll">Enorll Now</Link></li>
-                                    <li><Link className="dropdown-item" to="/enroll">Contact Us</Link></li>
-                                </ul>
-                            </li>
-                            <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
-                            <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
-                            <li className="nav-item"><Link className="nav-link" to="/business">Business</Link></li>
-                            <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li>
-                            <li className="nav-item"><a id="github" className="nav-link" href="https://github.com/Nani-codes/alt_hta" rel="noreferrer" target="_blank"> Github Code</a></li>
+                           
                             
                         </ul>
                     </div>
