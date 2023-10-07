@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 import NavBar from './components/NavBar';
 import Item from './components/Item';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import LoadingBar from 'react-top-loading-bar'
 import data from "./components/data.json"
 import Home from "./components/Home";
 
