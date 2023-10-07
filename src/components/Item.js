@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react'
 import Card from './Card'
 // import Spinner from './Spinner';
 import PropTypes from 'prop-types'
-import InfiniteScroll from "react-infinite-scroll-component";
 import data from "./data.json";
 
 const News = (props)=>{
@@ -12,13 +11,6 @@ const News = (props)=>{
     const [totalResults, setTotalResults] = useState(0)
     const [search,setSearch] = useState('');
     const filteredPosts = articles.filter((article) => article.description.includes(search.toLowerCase()))
-    let {category} = props;
-    let {country} = props;
-    const capitalizeFirstLetter = (string) => {
-        return string.charAt(0).toUpperCase() + string.slice(1);
-    } 
-
- 
    
 
 
@@ -42,7 +34,5 @@ const News = (props)=>{
         )
     
 }
-
-
 
 export default News
