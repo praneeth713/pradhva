@@ -10,19 +10,94 @@
             "description": ".",
             "url": "https://www.washingtonpost.com/technology/2023/08/19/russia-luna-25-moon-emergency/",
             "urlToImage": "https://img.freepik.com/premium-photo/runner-isolated-white-background-muscular-sportive-man-concept-action-generative-ai_852336-21340.jpg",
-            "publishedAt": "2023-08-20T05:28:17Z",
             "content": "Comment on this story\r\nComment\r\nRussias space agency on Saturday reported an emergency on its Luna-25 spacecraft the countrys first lunar mission in almost half a century as it was trying to enter pr… [+1642 chars]"
         },
         {
             "source": {
-                "id": "Sports"
+                "id": "Cricket"
             },
             "author": "By  JERUSALEM POST STAFF",
-            "title": "Sports",
+            "title": "Cricket",
             "description": "It looks like something out of a sci-fi film but the research team insist that it is one of many of this strange type of underwater life.",
             "url": "https://www.jpost.com/science/the-natural-world/article-755423",
-            "urlToImage": "https://previews.123rf.com/images/artisticco/artisticco1802/artisticco180200018/95975744-a-vector-illustration-of-athletes-of-different-sports-on-color-background.jpg",
-            "publishedAt": "2023-08-19T23:34:00Z",
+            "urlToImage": "https://cdn.dribbble.com/users/1418633/screenshots/3456393/sport_illustration__cricket_.png",
+            "content": "Researchers from the University of California, San Diego, have discovered a new species of sea creature, the Antarctic strawberry feather star, thousands of feet below sea level off the coast of Anta… [+1650 chars]"
+        },
+        {
+            "source": {
+                "id": "Football"
+            },
+            "author": "By  JERUSALEM POST STAFF",
+            "title": "Football",
+            "description": "It looks like something out of a sci-fi film but the research team insist that it is one of many of this strange type of underwater life.",
+            "url": "https://www.jpost.com/science/the-natural-world/article-755423",
+            "urlToImage": "https://i.pinimg.com/originals/7b/5b/e5/7b5be56f77caa122680aa28f71435fb5.png",
+            "content": "Researchers from the University of California, San Diego, have discovered a new species of sea creature, the Antarctic strawberry feather star, thousands of feet below sea level off the coast of Anta… [+1650 chars]"
+        },
+        {
+            "source": {
+                "id": "Volleyball"
+            },
+            "author": "By  JERUSALEM POST STAFF",
+            "title": "Volleyball",
+            "description": "It looks like something out of a sci-fi film but the research team insist that it is one of many of this strange type of underwater life.",
+            "url": "https://www.jpost.com/science/the-natural-world/article-755423",
+            "urlToImage": "https://static.vecteezy.com/system/resources/previews/011/411/413/original/abstract-silhouette-of-male-volleyball-player-jumping-and-hitting-the-ball-vector.jpg",
+            "content": "Researchers from the University of California, San Diego, have discovered a new species of sea creature, the Antarctic strawberry feather star, thousands of feet below sea level off the coast of Anta… [+1650 chars]"
+        },
+        {
+            "source": {
+                "id": "Badminton"
+            },
+            "author": "By  JERUSALEM POST STAFF",
+            "title": "Badminton",
+            "description": "It looks like something out of a sci-fi film but the research team insist that it is one of many of this strange type of underwater life.",
+            "url": "https://www.jpost.com/science/the-natural-world/article-755423",
+            "urlToImage": "https://media.istockphoto.com/id/473573422/vector/polygonal-professional-badminton-player-on-colorful-low-poly-background-smash.jpg?s=612x612&w=0&k=20&c=9bbDL--ei-0yfckzkud53No_MflgEVCXAc5jQWE6x2o=",
+            "content": "Researchers from the University of California, San Diego, have discovered a new species of sea creature, the Antarctic strawberry feather star, thousands of feet below sea level off the coast of Anta… [+1650 chars]"
+        },
+        {
+            "source": {
+                "id": "Table Tennis"
+            },
+            "author": "By  JERUSALEM POST STAFF",
+            "title": "Table Tennis",
+            "description": "It looks like something out of a sci-fi film but the research team insist that it is one of many of this strange type of underwater life.",
+            "url": "https://www.jpost.com/science/the-natural-world/article-755423",
+            "urlToImage": "https://render.fineartamerica.com/images/rendered/search/poster/8/5/break/images/artworkimages/medium/1/1-table-tennis-table-and-paddles-allan-swart.jpg",
+            "content": "Researchers from the University of California, San Diego, have discovered a new species of sea creature, the Antarctic strawberry feather star, thousands of feet below sea level off the coast of Anta… [+1650 chars]"
+        },
+        {
+            "source": {
+                "id": "Basketball"
+            },
+            "author": "By  JERUSALEM POST STAFF",
+            "title": "Basketball",
+            "description": "It looks like something out of a sci-fi film but the research team insist that it is one of many of this strange type of underwater life.",
+            "url": "https://www.jpost.com/science/the-natural-world/article-755423",
+            "urlToImage": "https://cdni.iconscout.com/illustration/premium/thumb/basketball-players-playing-basketball-3359808-2809297.png",
+            "content": "Researchers from the University of California, San Diego, have discovered a new species of sea creature, the Antarctic strawberry feather star, thousands of feet below sea level off the coast of Anta… [+1650 chars]"
+        },
+        {
+            "source": {
+                "id": "Throwball"
+            },
+            "author": "By  JERUSALEM POST STAFF",
+            "title": "Throwball",
+            "description": "It looks like something out of a sci-fi film but the research team insist that it is one of many of this strange type of underwater life.",
+            "url": "https://www.jpost.com/science/the-natural-world/article-755423",
+            "urlToImage": "https://sportsdribble.com/wp-content/uploads/2021/11/Featured-image-1.png",
+            "content": "Researchers from the University of California, San Diego, have discovered a new species of sea creature, the Antarctic strawberry feather star, thousands of feet below sea level off the coast of Anta… [+1650 chars]"
+        },
+        {
+            "source": {
+                "id": "Board Games"
+            },
+            "author": "By  JERUSALEM POST STAFF",
+            "title": "Board Games",
+            "description": "It looks like something out of a sci-fi film but the research team insist that it is one of many of this strange type of underwater life.",
+            "url": "https://www.jpost.com/science/the-natural-world/article-755423",
+            "urlToImage": "https://bonaludo.files.wordpress.com/2016/09/szachy-warcaby.jpg?w=900",
             "content": "Researchers from the University of California, San Diego, have discovered a new species of sea creature, the Antarctic strawberry feather star, thousands of feet below sea level off the coast of Anta… [+1650 chars]"
         }
     ]
