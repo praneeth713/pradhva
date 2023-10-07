@@ -1,0 +1,29 @@
+{
+    "articles": [
+        
+        {
+            "source": {
+                "id": "Athletics"
+            },
+            "author": "Lyric Li",
+            "title": "Athletics",
+            "description": ".",
+            "url": "https://www.washingtonpost.com/technology/2023/08/19/russia-luna-25-moon-emergency/",
+            "urlToImage": "https://img.freepik.com/premium-photo/runner-isolated-white-background-muscular-sportive-man-concept-action-generative-ai_852336-21340.jpg",
+            "publishedAt": "2023-08-20T05:28:17Z",
+            "content": "Comment on this story\r\nComment\r\nRussias space agency on Saturday reported an emergency on its Luna-25 spacecraft the countrys first lunar mission in almost half a century as it was trying to enter pr… [+1642 chars]"
+        },
+        {
+            "source": {
+                "id": "Sports"
+            },
+            "author": "By  JERUSALEM POST STAFF",
+            "title": "Sports",
+            "description": "It looks like something out of a sci-fi film but the research team insist that it is one of many of this strange type of underwater life.",
+            "url": "https://www.jpost.com/science/the-natural-world/article-755423",
+            "urlToImage": "https://previews.123rf.com/images/artisticco/artisticco1802/artisticco180200018/95975744-a-vector-illustration-of-athletes-of-different-sports-on-color-background.jpg",
+            "publishedAt": "2023-08-19T23:34:00Z",
+            "content": "Researchers from the University of California, San Diego, have discovered a new species of sea creature, the Antarctic strawberry feather star, thousands of feet below sea level off the coast of Anta… [+1650 chars]"
+        }
+    ]
+}
