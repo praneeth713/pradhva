@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import NavBar from './components/NavBar';
 import Item from './components/Item';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { Routes } from 'react-router-dom';
 import data from "./components/data.json"
 import Home from "./components/Home";
 
@@ -14,10 +15,10 @@ function App() {
     <div> 
         <Router>
         <NavBar/> 
-        <Switch>
-          <Route exact path="/"><Home/></Route>
-          <Route exact path="/Enroll"><Item  key="Home" parsedData={data} country="US" category="Home"/></Route>
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<Home/>} />
+          <Route exact path="/Enroll" element={<Item parsedData={data} />}/>
+        </Routes>
         </Router>
       </div>
   );

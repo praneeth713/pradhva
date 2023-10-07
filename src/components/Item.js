@@ -22,8 +22,6 @@ const News = (props)=>{
    
 
 
-
-
  
         return (
             <>
