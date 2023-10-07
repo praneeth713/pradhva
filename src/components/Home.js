@@ -5,11 +5,11 @@ import "./Home.css"
 const Home = () => {
   return (
     <div>
-        <div class="img"></div>
-        <div class="center">
-            <div class="title">Welcome to IIITK Intra Sports Meet</div>
-            <div class="sub_title"></div>
-            <div class="btns">
+        <div className="img"></div>
+        <div className="center">
+            <div className="title">Welcome to PRADHVA</div>
+            <div className="sub_title">IIITK Intra sports meet 23-24</div>
+            <div className="btns">
                 <button><Link className="nav-link" to="/Enroll">Explore</Link></button>
             </div>
         </div>

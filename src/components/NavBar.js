@@ -5,7 +5,6 @@ import image from "./logo.jpg"
 
 
 const NavBar = () => {
-
     return (
         <div>
             <nav style={{color:'black', backgroundColor:'black' }} className="navbar fixed-top navbar-expand-lg navbar-dark ">

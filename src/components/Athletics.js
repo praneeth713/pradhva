@@ -1,34 +1,39 @@
-import React from "react";
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import "./Athletics.css";
+import { articles } from "./data.js";
+
 const Athletics = () => {
+  const { name } = useParams();
+
+  const article = articles.filter((article) => article.title === name);
+
+  console.log(article);
+
   return (
     <div>
-      <div class="center">
-        <div class="blog-card spring-fever">
-          <div class="title-content">
-            <h3>Instrucntions</h3>
+      <div className="center">
+        <div className="blog-card spring-fever">
+          <div className="title-content">
+            <h3>{name} Instructions</h3>
           </div>
-          <div class="card-info">
+          <div className="card-info">
             <ul>
-              <li>
-                1. The competition shall be conducted under the IAF rules as
-                adopted from time to time by AFI unless modified in these rules
-              </li>
-              <li>
-                2. An athlete can participate in a maximum of 3 events,
-                excluding relays.
-              </li>
+              {article[0].description.map((desc) => (
+                <li>{desc}</li>
+              ))}
             </ul>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeHhVVg0hPwbJq2GwVgut_VoyUDULQ9XafPcJ-IeiEqJ4y-7A/viewform?usp=sf_link"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Register
-            </a>
+            
           </div>
-          <div class="gradient-overlay"></div>
-          <div class="color-overlay"></div>
+          {article[0].buttons.map((button) => (
+              <button id = "button" type="button" className="btn btn-success">
+                <a href={button.url} rel="noreferrer" target="_blank">
+                  {button.title}
+                </a>
+              </button>
+            ))}
+          <div className="gradient-overlay"></div>
+          <div className="color-overlay"></div>
         </div>
       </div>
     </div>

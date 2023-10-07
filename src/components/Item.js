@@ -2,13 +2,13 @@ import React, {useEffect, useState} from 'react'
 import Card from './Card'
 // import Spinner from './Spinner';
 import PropTypes from 'prop-types'
-import data from "./data.json";
+import {articles} from "./data.js";
 
 const News = (props)=>{
-    const [articles, setArticles] = useState(props.parsedData.articles);
+    
     const [loading, setLoading] = useState(true)
     const [search,setSearch] = useState('');
-    const filteredPosts = articles.filter((article) => article.description.includes(search.toLowerCase()))
+    const filteredPosts = articles.filter((article) => article.title.includes(search.toLowerCase()))
    
 
 
@@ -20,10 +20,10 @@ const News = (props)=>{
                 {loading && ""}
                     <div className="container">
                          
-                    <div className="row">
+                    <div className="row text-center">
                         {filteredPosts.map((element) => {
                             return <div className="col-md-4" key={element.url}>
-                                <Card title={element.title ? element.title : ""} description={element.description ? element.description : ""} imageUrl={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
+                                <Card title={element.title ? element.title : ""}  imageUrl={element.urlToImage} newsUrl={element.url} />
                             </div>
                         })}
                     </div>
