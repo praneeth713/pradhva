@@ -10,7 +10,7 @@ const Home = () => {
             <div class="title">Welcome to IIITK Intra Sports Meet</div>
             <div class="sub_title"></div>
             <div class="btns">
-                <button><Link className="nav-link" to="/enroll">Explore</Link></button>
+                <button><Link className="nav-link" to="/Enroll">Explore</Link></button>
             </div>
         </div>
     </div>

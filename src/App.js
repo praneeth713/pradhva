@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import { Routes } from 'react-router-dom';
 import data from "./components/data.json"
 import Home from "./components/Home";
+import Athletics from "./components/Athletics";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route exact path="/Enroll" element={<Item parsedData={data} />}/>
+          <Route exact path="/Athletics" element={<Athletics/>}/>
         </Routes>
         </Router>
       </div>

@@ -7,8 +7,6 @@ import data from "./data.json";
 const News = (props)=>{
     const [articles, setArticles] = useState(props.parsedData.articles);
     const [loading, setLoading] = useState(true)
-    const [page, setPage] = useState(1)
-    const [totalResults, setTotalResults] = useState(0)
     const [search,setSearch] = useState('');
     const filteredPosts = articles.filter((article) => article.description.includes(search.toLowerCase()))
    
