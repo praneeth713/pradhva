@@ -1,7 +1,7 @@
 .center {
   width: 100%;
   min-height: 100vh;
-  top: 500px;
+  top: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
