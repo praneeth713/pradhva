@@ -1,6 +1,7 @@
 .center {
   width: 100%;
-  /* min-height: 100vh; */
+  min-height: 100vh;
+  top: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +12,7 @@
   box-shadow: 0px 10px 20px -9px rgba(230, 114, 50, 2);
   background-size: 100%;
   max-width: 550px;
-  padding: 50px;
+  padding: 30px;
   color:#7c0808;
 }
 .card-info{

@@ -15,10 +15,6 @@ export const articles = [
                     title: 'Register Here',
                     url: 'https://docs.google.com/forms/d/e/1FAIpQLSeHhVVg0hPwbJq2GwVgut_VoyUDULQ9XafPcJ-IeiEqJ4y-7A/viewform?usp=sf_link'
                 },
-                {
-                    title: 'Singles Here',
-                    url: 'https://docs.google.com/forms/d/e/1FAIpQLSeHhVVg0hPwbJq2GwVgut_VoyUDULQ9XafPcJ-IeiEqJ4y-7A/viewform?usp=sf_link'
-                },
             ],
             "urlToImage": "https://img.freepik.com/premium-photo/runner-isolated-white-background-muscular-sportive-man-concept-action-generative-ai_852336-21340.jpg",
             "content": "Comment on this story\r\nComment\r\nRussias space agency on Saturday reported an emergency on its Luna-25 spacecraft the countrys first lunar mission in almost half a century as it was trying to enter pr… [+1642 chars]"
