@@ -79,7 +79,7 @@ nav .menu{
 }
 .centr{
   position: absolute;
-  top: 56%;
+  top: 50%;
   left: 50%;
   height: 100vh;
   transform: translate(-50%, -50%);
