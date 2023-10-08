@@ -1,19 +1,43 @@
-.center {
+#athl {
   width: 100%;
+  max-width: 15000px;
+  height: 900px;
+  max-height: 1px;
   min-height: 100vh;
-  top: 50%;
+  background-clip: padding-box;
+  background-size: cover;
+  top: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  background-position: center;
+  /* position: relative; */
+  z-index: -1;
+  background: url('https://as1.ftcdn.net/v2/jpg/00/99/16/32/1000_F_99163242_PRxPXweRzODgT8NkRwemAuy6cVz9vBgB.jpg');
 
+}
+.center::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(245, 240, 240, 0.7);
+  z-index: -1;
+}
 .blog-card {
   border-radius: 0px;
-  box-shadow: 0px 10px 20px -9px rgba(230, 114, 50, 2);
+  /* box-shadow: 0px 10px 20px -9px rgba(230, 114, 50, 2); */
   background-size: 100%;
-  max-width: 550px;
+  /* max-width: 550px; */
+  /* background: url('https://as1.ftcdn.net/v2/jpg/00/99/16/32/1000_F_99163242_PRxPXweRzODgT8NkRwemAuy6cVz9vBgB.jpg')no-repeat; */
+  min-width: 400px;
+  width: 70%;
   padding: 30px;
+  opacity: 1;
   color:#7c0808;
+  /* border-radius: 50px; */
 }
 .card-info{
   opacity: 1;

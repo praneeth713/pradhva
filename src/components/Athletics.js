@@ -12,7 +12,7 @@ const Athletics = () => {
 
   return (
     <div>
-      <div className="center">
+      <div className="center" id="athl">
         <div className="blog-card spring-fever">
           <div className="title-content">
             <h3>{name} Instructions</h3>

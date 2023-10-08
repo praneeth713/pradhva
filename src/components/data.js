@@ -27,9 +27,10 @@ export const articles = [
             "title": "Cricket",
             "description": [
                 "Matches shall be played according to the ICC rules in force, as adopted from time to time by the BCCI unless otherwise modified.",
-                "All the matches will be conducted on a knockout basis with 10 overs. Each bowler can bowl a maximum of 2 overs in 12-over matches. The semi-finals and finals will be conducted for 15 overs. Each bowler can bowl a maximum of 3 overs.",
+                "A team should contain atleast 5 bowlers, will be disqualified otherwise",
+                "All the matches will be conducted on a knockout basis with 10 overs. Each bowler can bowl a maximum of 2 overs. The semi-finals and finals will be conducted for 15 overs. Each bowler can bowl a maximum of 3 overs.",
                 "The number of players representing any batch or team will not be more than 15.",
-                "The matches up to the Quarter-final will be conducted in IIITK. Quarter-finals, Semi-finals and Final matches will be played on the ground located outside the campus. "
+                "Leauge matches will be conducted on our college ground. Quarter-finals, Semi-finals and Final matches will be played on the ground located outside the campus. "
             ],
             buttons: [
                 {
