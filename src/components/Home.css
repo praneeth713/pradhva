@@ -77,9 +77,9 @@ nav .menu{
   opacity: 100000000000;
   background: rgba(0, 0, 0, 0.4);
 }
-.center{
+.centr{
   position: absolute;
-  top: 55%;
+  top: 56%;
   left: 50%;
   height: 100vh;
   transform: translate(-50%, -50%);
@@ -91,7 +91,7 @@ nav .menu{
   flex-direction: column;
   align-items: center;
 }
-.center .title{
+.centr .title{
   color: #fff;
   font-size: 55px;
   font-weight: 600;
@@ -99,17 +99,17 @@ nav .menu{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-.center .sub_title{
+.centr .sub_title{
   color: #fff;
   font-size: 20px;
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
 }
-.center .btns{
+.centr .btns{
   margin-top: 20px;
 }
-.center .btns button{
+.centr .btns button{
   height: 55px;
   width: 170px;
   border-radius: 5px;
@@ -123,7 +123,7 @@ nav .menu{
   outline: none;
   transition: all 0.3s ease;
 }
-.center .btns button:first-child{
+.centr .btns button:first-child{
   color: #fff;
   background: none;
 }
@@ -131,7 +131,7 @@ nav .menu{
   background: white;
   color: black;
 }
-.center .btns button:last-child{
+.centr .btns button:last-child{
   background: white;
   color: black;
 }
