@@ -14,7 +14,7 @@
   justify-content: center;
   background-position: center;
   position: relative;
-  z-index: -1;
+  z-index: 1;
   background: url('https://as1.ftcdn.net/v2/jpg/00/99/16/32/1000_F_99163242_PRxPXweRzODgT8NkRwemAuy6cVz9vBgB.jpg');
 
 }
