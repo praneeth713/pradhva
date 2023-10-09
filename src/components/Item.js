@@ -16,7 +16,7 @@ const News = (props)=>{
         return (
             <>
 
-                <h1 className="text-center" style={{ margin: '35px 0px', marginTop: '90px' }}> IIITK  Intra Sprots Meet</h1>
+                <h1 className="text-center" style={{ margin: '35px 0px', marginTop: '90px' }}> IIITK  Intra Sports Meet</h1>
                 {loading && ""}
                     <div className="container">
                          
