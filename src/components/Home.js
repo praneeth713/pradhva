@@ -16,8 +16,13 @@ const Home = () => {
             </Link>
           </button>
         </div>
+        <div style = {{top:"20px"}}
+          class="alert alert-warning alert-dismissible fade show"
+          role="alert"
+        >
+          <strong>Hurry Up!</strong> Final day to fill out the forms.
+        </div>
       </div>
-      
     </div>
   );
 };
